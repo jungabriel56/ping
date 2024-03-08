@@ -1,4 +1,4 @@
-package com.github.acnaweb.ping;
+package com.github.jungabriel56.ping;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
