@@ -1,4 +1,4 @@
-package com.github.acnaweb.ping;
+package com.github.jungabriel56.ping;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
