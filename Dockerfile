@@ -1,10 +1,10 @@
 FROM maven:3.8.7-openjdk-18-slim
 
-RUN mkdir /opt/ping
+RUN mkdir /opt/app
 
-COPY . /opt/ping
+COPY . /opt/app
 
-WORKDIR /opt/ping
+WORKDIR /opt/app
 
 RUN mvn clean package
 
