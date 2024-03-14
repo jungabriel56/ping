@@ -41,6 +41,24 @@ docker run -d -p 8080:8080 -e PROFILE=prd ping
 docker run  -p 8080:8080 minhaimagem.tag
 ```
 
+###Container registry
+> login
+```
+docker login -u <username>
+```
+
+>criar novo nome para a image
+```
+docker tag ping jungabriel56/ping:0.0.1
+```
+
+>push para o docker hub
+```
+docker push jungabriel56/ping:0.0.1
+```
+
+
+
 ### Menu iniciar
 > Menu Iniciar: Selecionar e clicar em aplicação X
 
